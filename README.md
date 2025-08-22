@@ -52,3 +52,21 @@ The goal of this project is to **predict which customers are at risk of leaving*
 ---
 
 ## 📂 Project Structure
+
+
+📂 customer-churn-analysis
+ ┣ 📜 README.md
+ ┣ 📜 requirements.txt
+ ┣ 📂 data
+ ┃ ┣ raw_data.csv
+ ┃ ┗ cleaned_data.csv
+ ┣ 📂 notebooks
+ ┃ ┣ 01_data_cleaning.ipynb
+ ┃ ┣ 02_EDA.ipynb
+ ┃ ┣ 03_modeling.ipynb
+ ┃ ┗ 04_visualization.ipynb
+ ┣ 📂 sql
+ ┃ ┗ churn_analysis_queries.sql
+ ┗ 📂 tableau
+   ┗ churn_dashboard.twbx
+
